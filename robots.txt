@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /privacy
+Disallow: /legal
+Sitemap: https://anupamdagar.com/sitemap.xml
+Host: https://anupamdagar.com
