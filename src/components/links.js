@@ -16,7 +16,7 @@ export default () => (
       <GitHub alt="GitHub icon" />
     </OutboundLink>
 
-    <OutboundLink href="https://medium.com/@siriusdagar" rel="noopener noreferrer" target="_blank" aria-label="Link to my medium blogs">
+    <OutboundLink href="http://blog.anupamdagar.com" rel="noopener noreferrer" target="_blank" aria-label="Link to my Blog">
       <Medium alt="Medium icon" />
     </OutboundLink>
 
@@ -25,7 +25,7 @@ export default () => (
     </OutboundLink>
 
     <OutboundLink href="https://www.heroku.com/podcasts/codeish/43-the-github-student-developer-pack" rel="noopener noreferrer" aria-label="Link to my Heroku podcast">
-      <Heroku alt="Mail icon" />
+      <Heroku alt="Heroku icon" />
     </OutboundLink>
     
     <OutboundLink href="mailto:dagaranupam@gmail.com" rel="noopener noreferrer" aria-label="Link to my email address">

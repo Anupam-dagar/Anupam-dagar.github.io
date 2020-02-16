@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://filipesantoscorrea.com`,
+    siteUrl: `https://anupamdagar.com`,
   },
   plugins: [
     {
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Filipe Santos Correa`,
-        short_name: `Filipe`,
+        name: `Anupam Dagar`,
+        short_name: `Anupam`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#0873e8`,
@@ -61,17 +61,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-137805599-1",
-        head: true,
-        anonymize: true,
-        respectDNT: true
+        trackingId: "UA-92889653-1",
+        head: true
       },
     },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://filipesantoscorrea.com',
-        sitemap: 'https://filipesantoscorrea.com/sitemap.xml',
+        host: 'https://anupamdagar.com',
+        sitemap: 'https://anupamdagar.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/', disallow: ["/privacy", "/legal"], }]
       }
     },
