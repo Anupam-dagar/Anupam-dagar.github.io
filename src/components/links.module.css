@@ -12,7 +12,9 @@
   width: 2rem;
   height: 2rem;
   fill: var(--text-color);
-  padding: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.95rem;
+  padding-right: 0.95rem;
 }
 
 @media (min-width: 576px) {
@@ -24,4 +26,17 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+}
+
+.portfolio {
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: var(--portfolio-color);
+  border: none;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
 }
