@@ -6,7 +6,7 @@ export default () => (
     <h1 className={styles.headline}>Anupam Dagar</h1>
     <p className={styles.underline}>
       I'm a <strong>Full Stack</strong> Developer<br/>
-      Software Engineer at <strong>Deutsche Telekom Digital Labs</strong>
+      Software Engineer at <strong>Ula</strong>
     </p>
   </div>
 )

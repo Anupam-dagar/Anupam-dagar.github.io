@@ -16,8 +16,8 @@ export default () => (
 
       <title>Anupam Dagar - Full Stack Developer</title>
       <meta name="title" content="Anupam Dagar - Full Stack Developer" />
-      <meta name="description" content="Hi, my name is Anupam Dagar. I'm a Full Stack Developer and a final year undergraduate student at IIIT Allahabad in India." />
-      <link rel="canonical" href="http://anupamdagar.com" />
+      <meta name="description" content="Hi, my name is Anupam Dagar. I'm a Full Stack Developer from India." />
+      <link rel="canonical" href="https://anupamdagar.com" />
 
       <meta name="application-name" content="Anupam Dagar" />
       <meta name="theme-color" content="#48bfcd" />

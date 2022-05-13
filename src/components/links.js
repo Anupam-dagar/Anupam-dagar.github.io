@@ -25,7 +25,7 @@ export default () => (
       <GitHub alt="GitHub icon" />
     </OutboundLink>
 
-    <OutboundLink href="http://blog.anupamdagar.com" rel="noopener noreferrer" target="_blank" aria-label="Link to my Blog">
+    <OutboundLink href="https://blog.anupamdagar.com" rel="noopener noreferrer" target="_blank" aria-label="Link to my Blog">
       <Medium alt="Medium icon" />
     </OutboundLink>
 
