@@ -6,19 +6,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Open Sans\:300,600`
-          ,
-        ],
+        fonts: [`Open Sans\:300,600`],
       },
     },
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/
-        }
-      }
+          include: /assets/,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -34,44 +31,23 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/sitemap.xml`,
-        exclude: ["/privacy", `/legal`],
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-  
-            allSitePage {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-        }`
-      }
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-92889653-1",
-        head: true
+        head: true,
       },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://anupamdagar.com',
-        sitemap: 'https://anupamdagar.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/', disallow: ["/privacy", "/legal"], }]
-      }
+        host: "https://anupamdagar.com",
+        sitemap: "https://anupamdagar.com/sitemap.xml",
+        policy: [
+          { userAgent: "*", allow: "/", disallow: ["/privacy", "/legal"] },
+        ],
+      },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
   ],
-}
+};

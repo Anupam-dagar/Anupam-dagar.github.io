@@ -1,7 +1,7 @@
-import React from 'react'
-import styles from './footer.module.css'
+import React from "react";
+import * as styles from "./footer.module.css";
 
-export default () => (
+const Footer = () => (
   <nav className={styles.container}>
     <ul className={styles.list}>
       {/* <li><Link to="/privacy/">Privacy</Link></li>
@@ -9,4 +9,6 @@ export default () => (
       <li><Link to="/legal/">Legal</Link></li> */}
     </ul>
   </nav>
-)
+);
+
+export default Footer;
