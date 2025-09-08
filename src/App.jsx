@@ -43,9 +43,9 @@ const useYearsOfExperience = (startDate) => {
     const hasHalf = roundedYears % 1 !== 0;
     
     if (hasHalf) {
-      setYearsOfExperience(`${wholeYears}½ Years Experience`);
+      setYearsOfExperience(`${wholeYears}.5+ Years Experience`);
     } else {
-      setYearsOfExperience(`${wholeYears} Years Experience`);
+      setYearsOfExperience(`${wholeYears}+ Years Experience`);
     }
   }, [startDate]);
 
